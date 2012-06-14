@@ -7,209 +7,180 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D0A9D9B1588066D00812F7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0A9D9A1588066D00812F7A /* UIKit.framework */; };
-		8D0A9D9D1588066D00812F7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0A9D9C1588066D00812F7A /* Foundation.framework */; };
-		8D0A9D9F1588066D00812F7A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0A9D9E1588066D00812F7A /* CoreGraphics.framework */; };
-		8D0A9DA51588066D00812F7A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D0A9DA31588066D00812F7A /* InfoPlist.strings */; };
-		8D0A9DA71588066D00812F7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0A9DA61588066D00812F7A /* main.m */; };
-		8D0A9DAB1588066D00812F7A /* BVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0A9DAA1588066D00812F7A /* BVAppDelegate.m */; };
-		8D0A9DAE1588066D00812F7A /* BVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0A9DAD1588066D00812F7A /* BVViewController.m */; };
-		8D0A9DB11588066D00812F7A /* BVViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0A9DAF1588066D00812F7A /* BVViewController_iPhone.xib */; };
-		8D0A9DB41588066D00812F7A /* BVViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D0A9DB21588066D00812F7A /* BVViewController_iPad.xib */; };
-		8D0A9DBD15880C7300812F7A /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0A9DBC15880C7300812F7A /* icon-57.png */; };
-		8D0A9DCA15880DEF00812F7A /* Vowel_Chart-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0A9DC615880DEF00812F7A /* Vowel_Chart-iPad.png */; };
-		8D0A9DCB15880DEF00812F7A /* Vowel_Chart-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0A9DC715880DEF00812F7A /* Vowel_Chart-iPad@2x.png */; };
-		8D0A9DCC15880DEF00812F7A /* Vowel_Chart.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0A9DC815880DEF00812F7A /* Vowel_Chart.png */; };
-		8D0A9DCD15880DEF00812F7A /* Vowel_Chart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0A9DC915880DEF00812F7A /* Vowel_Chart@2x.png */; };
-		8D0A9E07158812E200812F7A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0A9E06158812E200812F7A /* AudioToolbox.framework */; };
-		8D0A9E091588245300812F7A /* icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0A9E081588245300812F7A /* icon-114.png */; };
-		8D0A9E0B1588246300812F7A /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0A9E0A1588246300812F7A /* icon-72.png */; };
-		8D0A9E0D158824DF00812F7A /* icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0A9E0C158824DF00812F7A /* icon-144.png */; };
-		8D9A66701588652F005D828A /* V1-01.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A66541588652F005D828A /* V1-01.caf */; };
-		8D9A66711588652F005D828A /* V1-02.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A66551588652F005D828A /* V1-02.caf */; };
-		8D9A66721588652F005D828A /* V1-03.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A66561588652F005D828A /* V1-03.caf */; };
-		8D9A66731588652F005D828A /* V1-04.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A66571588652F005D828A /* V1-04.caf */; };
-		8D9A66741588652F005D828A /* V1-05.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A66581588652F005D828A /* V1-05.caf */; };
-		8D9A66751588652F005D828A /* V1-06.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A66591588652F005D828A /* V1-06.caf */; };
-		8D9A66761588652F005D828A /* V1-07.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A665A1588652F005D828A /* V1-07.caf */; };
-		8D9A66771588652F005D828A /* V1-08.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A665B1588652F005D828A /* V1-08.caf */; };
-		8D9A66781588652F005D828A /* V1-09.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A665C1588652F005D828A /* V1-09.caf */; };
-		8D9A66791588652F005D828A /* V1-10.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A665D1588652F005D828A /* V1-10.caf */; };
-		8D9A667A1588652F005D828A /* V1-11.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A665E1588652F005D828A /* V1-11.caf */; };
-		8D9A667B1588652F005D828A /* V1-12.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A665F1588652F005D828A /* V1-12.caf */; };
-		8D9A667C1588652F005D828A /* V1-13.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A66601588652F005D828A /* V1-13.caf */; };
-		8D9A667D1588652F005D828A /* V1-14.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A66611588652F005D828A /* V1-14.caf */; };
-		8D9A667E1588652F005D828A /* V1-15.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A66621588652F005D828A /* V1-15.caf */; };
-		8D9A667F1588652F005D828A /* V1-16.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A66631588652F005D828A /* V1-16.caf */; };
-		8D9A66801588652F005D828A /* V1-17.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A66641588652F005D828A /* V1-17.caf */; };
-		8D9A66811588652F005D828A /* V1-18.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A66651588652F005D828A /* V1-18.caf */; };
-		8D9A66821588652F005D828A /* V1-19.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A66661588652F005D828A /* V1-19.caf */; };
-		8D9A66831588652F005D828A /* V1-20.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A66671588652F005D828A /* V1-20.caf */; };
-		8D9A66841588652F005D828A /* V1-21.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A66681588652F005D828A /* V1-21.caf */; };
-		8D9A66851588652F005D828A /* V1-22.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A66691588652F005D828A /* V1-22.caf */; };
-		8D9A66861588652F005D828A /* V1-23.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A666A1588652F005D828A /* V1-23.caf */; };
-		8D9A66871588652F005D828A /* V1-24.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A666B1588652F005D828A /* V1-24.caf */; };
-		8D9A66881588652F005D828A /* V1-25.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A666C1588652F005D828A /* V1-25.caf */; };
-		8D9A66891588652F005D828A /* V1-26.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A666D1588652F005D828A /* V1-26.caf */; };
-		8D9A668A1588652F005D828A /* V1-27.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A666E1588652F005D828A /* V1-27.caf */; };
-		8D9A668B1588652F005D828A /* V1-28.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8D9A666F1588652F005D828A /* V1-28.caf */; };
+		8D9448C215895DD6009B52BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9448C115895DD6009B52BC /* UIKit.framework */; };
+		8D9448C415895DD6009B52BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9448C315895DD6009B52BC /* Foundation.framework */; };
+		8D9448C615895DD6009B52BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9448C515895DD6009B52BC /* CoreGraphics.framework */; };
+		8D9448CC15895DD6009B52BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D9448CA15895DD6009B52BC /* InfoPlist.strings */; };
+		8D9448CE15895DD6009B52BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9448CD15895DD6009B52BC /* main.m */; };
+		8D9448D215895DD6009B52BC /* BVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9448D115895DD6009B52BC /* BVAppDelegate.m */; };
+		8D9448D515895DD6009B52BC /* BVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9448D415895DD6009B52BC /* BVViewController.m */; };
+		8D9448D815895DD6009B52BC /* BVViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9448D615895DD6009B52BC /* BVViewController_iPhone.xib */; };
+		8D9448DB15895DD6009B52BC /* BVViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D9448D915895DD6009B52BC /* BVViewController_iPad.xib */; };
+		8D9448E215895DFF009B52BC /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9448E115895DFF009B52BC /* icon-57.png */; };
+		8D9448E415895E05009B52BC /* icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9448E315895E05009B52BC /* icon-114.png */; };
+		8D9448E815895E3F009B52BC /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9448E715895E3F009B52BC /* icon-72.png */; };
+		8D9448EA15895E44009B52BC /* icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9448E915895E44009B52BC /* icon-144.png */; };
+		8D9448EC15895E4C009B52BC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9448EB15895E4C009B52BC /* AudioToolbox.framework */; };
+		8D94490D15895E8C009B52BC /* Vowel_Chart-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D94490915895E8C009B52BC /* Vowel_Chart-iPad.png */; };
+		8D94490E15895E8C009B52BC /* Vowel_Chart-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D94490A15895E8C009B52BC /* Vowel_Chart-iPad@2x.png */; };
+		8D94490F15895E8C009B52BC /* Vowel_Chart.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D94490B15895E8C009B52BC /* Vowel_Chart.png */; };
+		8D94491015895E8C009B52BC /* Vowel_Chart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D94490C15895E8C009B52BC /* Vowel_Chart@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8D0A9D961588066D00812F7A /* IPAVowels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPAVowels.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D0A9D9A1588066D00812F7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		8D0A9D9C1588066D00812F7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8D0A9D9E1588066D00812F7A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8D0A9DA21588066D00812F7A /* IPAVowels-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IPAVowels-Info.plist"; sourceTree = "<group>"; };
-		8D0A9DA41588066D00812F7A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8D0A9DA61588066D00812F7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8D0A9DA81588066D00812F7A /* IPAVowels-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IPAVowels-Prefix.pch"; sourceTree = "<group>"; };
-		8D0A9DA91588066D00812F7A /* BVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BVAppDelegate.h; sourceTree = "<group>"; };
-		8D0A9DAA1588066D00812F7A /* BVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BVAppDelegate.m; sourceTree = "<group>"; };
-		8D0A9DAC1588066D00812F7A /* BVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BVViewController.h; sourceTree = "<group>"; };
-		8D0A9DAD1588066D00812F7A /* BVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BVViewController.m; sourceTree = "<group>"; };
-		8D0A9DB01588066D00812F7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BVViewController_iPhone.xib; sourceTree = "<group>"; };
-		8D0A9DB31588066D00812F7A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BVViewController_iPad.xib; sourceTree = "<group>"; };
-		8D0A9DBC15880C7300812F7A /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57.png"; sourceTree = "<group>"; };
-		8D0A9DC615880DEF00812F7A /* Vowel_Chart-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vowel_Chart-iPad.png"; sourceTree = "<group>"; };
-		8D0A9DC715880DEF00812F7A /* Vowel_Chart-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vowel_Chart-iPad@2x.png"; sourceTree = "<group>"; };
-		8D0A9DC815880DEF00812F7A /* Vowel_Chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vowel_Chart.png; sourceTree = "<group>"; };
-		8D0A9DC915880DEF00812F7A /* Vowel_Chart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vowel_Chart@2x.png"; sourceTree = "<group>"; };
-		8D0A9E06158812E200812F7A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		8D0A9E081588245300812F7A /* icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-114.png"; sourceTree = "<group>"; };
-		8D0A9E0A1588246300812F7A /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
-		8D0A9E0C158824DF00812F7A /* icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-144.png"; sourceTree = "<group>"; };
-		8D9A66541588652F005D828A /* V1-01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-01.caf"; sourceTree = "<group>"; };
-		8D9A66551588652F005D828A /* V1-02.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-02.caf"; sourceTree = "<group>"; };
-		8D9A66561588652F005D828A /* V1-03.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-03.caf"; sourceTree = "<group>"; };
-		8D9A66571588652F005D828A /* V1-04.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-04.caf"; sourceTree = "<group>"; };
-		8D9A66581588652F005D828A /* V1-05.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-05.caf"; sourceTree = "<group>"; };
-		8D9A66591588652F005D828A /* V1-06.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-06.caf"; sourceTree = "<group>"; };
-		8D9A665A1588652F005D828A /* V1-07.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-07.caf"; sourceTree = "<group>"; };
-		8D9A665B1588652F005D828A /* V1-08.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-08.caf"; sourceTree = "<group>"; };
-		8D9A665C1588652F005D828A /* V1-09.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-09.caf"; sourceTree = "<group>"; };
-		8D9A665D1588652F005D828A /* V1-10.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-10.caf"; sourceTree = "<group>"; };
-		8D9A665E1588652F005D828A /* V1-11.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-11.caf"; sourceTree = "<group>"; };
-		8D9A665F1588652F005D828A /* V1-12.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-12.caf"; sourceTree = "<group>"; };
-		8D9A66601588652F005D828A /* V1-13.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-13.caf"; sourceTree = "<group>"; };
-		8D9A66611588652F005D828A /* V1-14.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-14.caf"; sourceTree = "<group>"; };
-		8D9A66621588652F005D828A /* V1-15.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-15.caf"; sourceTree = "<group>"; };
-		8D9A66631588652F005D828A /* V1-16.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-16.caf"; sourceTree = "<group>"; };
-		8D9A66641588652F005D828A /* V1-17.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-17.caf"; sourceTree = "<group>"; };
-		8D9A66651588652F005D828A /* V1-18.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-18.caf"; sourceTree = "<group>"; };
-		8D9A66661588652F005D828A /* V1-19.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-19.caf"; sourceTree = "<group>"; };
-		8D9A66671588652F005D828A /* V1-20.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-20.caf"; sourceTree = "<group>"; };
-		8D9A66681588652F005D828A /* V1-21.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-21.caf"; sourceTree = "<group>"; };
-		8D9A66691588652F005D828A /* V1-22.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-22.caf"; sourceTree = "<group>"; };
-		8D9A666A1588652F005D828A /* V1-23.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-23.caf"; sourceTree = "<group>"; };
-		8D9A666B1588652F005D828A /* V1-24.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-24.caf"; sourceTree = "<group>"; };
-		8D9A666C1588652F005D828A /* V1-25.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-25.caf"; sourceTree = "<group>"; };
-		8D9A666D1588652F005D828A /* V1-26.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-26.caf"; sourceTree = "<group>"; };
-		8D9A666E1588652F005D828A /* V1-27.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-27.caf"; sourceTree = "<group>"; };
-		8D9A666F1588652F005D828A /* V1-28.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-28.caf"; sourceTree = "<group>"; };
+		8D9448BD15895DD6009B52BC /* IPAVowels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPAVowels.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9448C115895DD6009B52BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8D9448C315895DD6009B52BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8D9448C515895DD6009B52BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D9448C915895DD6009B52BC /* IPAVowels-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IPAVowels-Info.plist"; sourceTree = "<group>"; };
+		8D9448CB15895DD6009B52BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D9448CD15895DD6009B52BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D9448CF15895DD6009B52BC /* IPAVowels-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IPAVowels-Prefix.pch"; sourceTree = "<group>"; };
+		8D9448D015895DD6009B52BC /* BVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BVAppDelegate.h; sourceTree = "<group>"; };
+		8D9448D115895DD6009B52BC /* BVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BVAppDelegate.m; sourceTree = "<group>"; };
+		8D9448D315895DD6009B52BC /* BVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BVViewController.h; sourceTree = "<group>"; };
+		8D9448D415895DD6009B52BC /* BVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BVViewController.m; sourceTree = "<group>"; };
+		8D9448D715895DD6009B52BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BVViewController_iPhone.xib; sourceTree = "<group>"; };
+		8D9448DA15895DD6009B52BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BVViewController_iPad.xib; sourceTree = "<group>"; };
+		8D9448E115895DFF009B52BC /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57.png"; sourceTree = "<group>"; };
+		8D9448E315895E05009B52BC /* icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-114.png"; sourceTree = "<group>"; };
+		8D9448E715895E3F009B52BC /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		8D9448E915895E44009B52BC /* icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-144.png"; sourceTree = "<group>"; };
+		8D9448EB15895E4C009B52BC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8D9448ED15895E77009B52BC /* V1-01.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-01.caf"; sourceTree = "<group>"; };
+		8D9448EE15895E77009B52BC /* V1-02.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-02.caf"; sourceTree = "<group>"; };
+		8D9448EF15895E77009B52BC /* V1-03.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-03.caf"; sourceTree = "<group>"; };
+		8D9448F015895E77009B52BC /* V1-04.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-04.caf"; sourceTree = "<group>"; };
+		8D9448F115895E77009B52BC /* V1-05.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-05.caf"; sourceTree = "<group>"; };
+		8D9448F215895E77009B52BC /* V1-06.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-06.caf"; sourceTree = "<group>"; };
+		8D9448F315895E77009B52BC /* V1-07.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-07.caf"; sourceTree = "<group>"; };
+		8D9448F415895E77009B52BC /* V1-08.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-08.caf"; sourceTree = "<group>"; };
+		8D9448F515895E77009B52BC /* V1-09.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-09.caf"; sourceTree = "<group>"; };
+		8D9448F615895E77009B52BC /* V1-10.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-10.caf"; sourceTree = "<group>"; };
+		8D9448F715895E77009B52BC /* V1-11.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-11.caf"; sourceTree = "<group>"; };
+		8D9448F815895E77009B52BC /* V1-12.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-12.caf"; sourceTree = "<group>"; };
+		8D9448F915895E77009B52BC /* V1-13.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-13.caf"; sourceTree = "<group>"; };
+		8D9448FA15895E77009B52BC /* V1-14.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-14.caf"; sourceTree = "<group>"; };
+		8D9448FB15895E77009B52BC /* V1-15.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-15.caf"; sourceTree = "<group>"; };
+		8D9448FC15895E77009B52BC /* V1-16.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-16.caf"; sourceTree = "<group>"; };
+		8D9448FD15895E77009B52BC /* V1-17.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-17.caf"; sourceTree = "<group>"; };
+		8D9448FE15895E77009B52BC /* V1-18.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-18.caf"; sourceTree = "<group>"; };
+		8D9448FF15895E77009B52BC /* V1-19.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-19.caf"; sourceTree = "<group>"; };
+		8D94490015895E77009B52BC /* V1-20.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-20.caf"; sourceTree = "<group>"; };
+		8D94490115895E77009B52BC /* V1-21.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-21.caf"; sourceTree = "<group>"; };
+		8D94490215895E77009B52BC /* V1-22.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-22.caf"; sourceTree = "<group>"; };
+		8D94490315895E77009B52BC /* V1-23.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-23.caf"; sourceTree = "<group>"; };
+		8D94490415895E77009B52BC /* V1-24.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-24.caf"; sourceTree = "<group>"; };
+		8D94490515895E77009B52BC /* V1-25.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-25.caf"; sourceTree = "<group>"; };
+		8D94490615895E77009B52BC /* V1-26.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-26.caf"; sourceTree = "<group>"; };
+		8D94490715895E77009B52BC /* V1-27.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-27.caf"; sourceTree = "<group>"; };
+		8D94490815895E77009B52BC /* V1-28.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V1-28.caf"; sourceTree = "<group>"; };
+		8D94490915895E8C009B52BC /* Vowel_Chart-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vowel_Chart-iPad.png"; sourceTree = "<group>"; };
+		8D94490A15895E8C009B52BC /* Vowel_Chart-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vowel_Chart-iPad@2x.png"; sourceTree = "<group>"; };
+		8D94490B15895E8C009B52BC /* Vowel_Chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vowel_Chart.png; sourceTree = "<group>"; };
+		8D94490C15895E8C009B52BC /* Vowel_Chart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vowel_Chart@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8D0A9D931588066D00812F7A /* Frameworks */ = {
+		8D9448BA15895DD6009B52BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D0A9E07158812E200812F7A /* AudioToolbox.framework in Frameworks */,
-				8D0A9D9B1588066D00812F7A /* UIKit.framework in Frameworks */,
-				8D0A9D9D1588066D00812F7A /* Foundation.framework in Frameworks */,
-				8D0A9D9F1588066D00812F7A /* CoreGraphics.framework in Frameworks */,
+				8D9448EC15895E4C009B52BC /* AudioToolbox.framework in Frameworks */,
+				8D9448C215895DD6009B52BC /* UIKit.framework in Frameworks */,
+				8D9448C415895DD6009B52BC /* Foundation.framework in Frameworks */,
+				8D9448C615895DD6009B52BC /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8D0A9D8B1588066B00812F7A = {
+		8D9448B215895DD5009B52BC = {
 			isa = PBXGroup;
 			children = (
-				8D0A9E0C158824DF00812F7A /* icon-144.png */,
-				8D0A9E0A1588246300812F7A /* icon-72.png */,
-				8D0A9E081588245300812F7A /* icon-114.png */,
-				8D0A9E06158812E200812F7A /* AudioToolbox.framework */,
-				8D0A9DBC15880C7300812F7A /* icon-57.png */,
-				8D0A9DA01588066D00812F7A /* IPAVowels */,
-				8D0A9D991588066D00812F7A /* Frameworks */,
-				8D0A9D971588066D00812F7A /* Products */,
+				8D9448EB15895E4C009B52BC /* AudioToolbox.framework */,
+				8D9448E915895E44009B52BC /* icon-144.png */,
+				8D9448E715895E3F009B52BC /* icon-72.png */,
+				8D9448E315895E05009B52BC /* icon-114.png */,
+				8D9448E115895DFF009B52BC /* icon-57.png */,
+				8D9448C715895DD6009B52BC /* IPAVowels */,
+				8D9448C015895DD6009B52BC /* Frameworks */,
+				8D9448BE15895DD6009B52BC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8D0A9D971588066D00812F7A /* Products */ = {
+		8D9448BE15895DD6009B52BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D0A9D961588066D00812F7A /* IPAVowels.app */,
+				8D9448BD15895DD6009B52BC /* IPAVowels.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8D0A9D991588066D00812F7A /* Frameworks */ = {
+		8D9448C015895DD6009B52BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8D0A9D9A1588066D00812F7A /* UIKit.framework */,
-				8D0A9D9C1588066D00812F7A /* Foundation.framework */,
-				8D0A9D9E1588066D00812F7A /* CoreGraphics.framework */,
+				8D9448C115895DD6009B52BC /* UIKit.framework */,
+				8D9448C315895DD6009B52BC /* Foundation.framework */,
+				8D9448C515895DD6009B52BC /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8D0A9DA01588066D00812F7A /* IPAVowels */ = {
+		8D9448C715895DD6009B52BC /* IPAVowels */ = {
 			isa = PBXGroup;
 			children = (
-				8D0A9DA91588066D00812F7A /* BVAppDelegate.h */,
-				8D0A9DAA1588066D00812F7A /* BVAppDelegate.m */,
-				8D0A9DAC1588066D00812F7A /* BVViewController.h */,
-				8D0A9DAD1588066D00812F7A /* BVViewController.m */,
-				8D0A9DAF1588066D00812F7A /* BVViewController_iPhone.xib */,
-				8D0A9DB21588066D00812F7A /* BVViewController_iPad.xib */,
-				8D0A9DA11588066D00812F7A /* Supporting Files */,
+				8D9448D015895DD6009B52BC /* BVAppDelegate.h */,
+				8D9448D115895DD6009B52BC /* BVAppDelegate.m */,
+				8D9448D315895DD6009B52BC /* BVViewController.h */,
+				8D9448D415895DD6009B52BC /* BVViewController.m */,
+				8D9448D615895DD6009B52BC /* BVViewController_iPhone.xib */,
+				8D9448D915895DD6009B52BC /* BVViewController_iPad.xib */,
+				8D9448C815895DD6009B52BC /* Supporting Files */,
 			);
-			name = IPAVowels;
-			path = IPAVowelChart;
+			path = IPAVowels;
 			sourceTree = "<group>";
 		};
-		8D0A9DA11588066D00812F7A /* Supporting Files */ = {
+		8D9448C815895DD6009B52BC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8D9A66541588652F005D828A /* V1-01.caf */,
-				8D9A66551588652F005D828A /* V1-02.caf */,
-				8D9A66561588652F005D828A /* V1-03.caf */,
-				8D9A66571588652F005D828A /* V1-04.caf */,
-				8D9A66581588652F005D828A /* V1-05.caf */,
-				8D9A66591588652F005D828A /* V1-06.caf */,
-				8D9A665A1588652F005D828A /* V1-07.caf */,
-				8D9A665B1588652F005D828A /* V1-08.caf */,
-				8D9A665C1588652F005D828A /* V1-09.caf */,
-				8D9A665D1588652F005D828A /* V1-10.caf */,
-				8D9A665E1588652F005D828A /* V1-11.caf */,
-				8D9A665F1588652F005D828A /* V1-12.caf */,
-				8D9A66601588652F005D828A /* V1-13.caf */,
-				8D9A66611588652F005D828A /* V1-14.caf */,
-				8D9A66621588652F005D828A /* V1-15.caf */,
-				8D9A66631588652F005D828A /* V1-16.caf */,
-				8D9A66641588652F005D828A /* V1-17.caf */,
-				8D9A66651588652F005D828A /* V1-18.caf */,
-				8D9A66661588652F005D828A /* V1-19.caf */,
-				8D9A66671588652F005D828A /* V1-20.caf */,
-				8D9A66681588652F005D828A /* V1-21.caf */,
-				8D9A66691588652F005D828A /* V1-22.caf */,
-				8D9A666A1588652F005D828A /* V1-23.caf */,
-				8D9A666B1588652F005D828A /* V1-24.caf */,
-				8D9A666C1588652F005D828A /* V1-25.caf */,
-				8D9A666D1588652F005D828A /* V1-26.caf */,
-				8D9A666E1588652F005D828A /* V1-27.caf */,
-				8D9A666F1588652F005D828A /* V1-28.caf */,
-				8D0A9DC615880DEF00812F7A /* Vowel_Chart-iPad.png */,
-				8D0A9DC715880DEF00812F7A /* Vowel_Chart-iPad@2x.png */,
-				8D0A9DC815880DEF00812F7A /* Vowel_Chart.png */,
-				8D0A9DC915880DEF00812F7A /* Vowel_Chart@2x.png */,
-				8D0A9DA21588066D00812F7A /* IPAVowels-Info.plist */,
-				8D0A9DA31588066D00812F7A /* InfoPlist.strings */,
-				8D0A9DA61588066D00812F7A /* main.m */,
-				8D0A9DA81588066D00812F7A /* IPAVowels-Prefix.pch */,
+				8D94490915895E8C009B52BC /* Vowel_Chart-iPad.png */,
+				8D94490A15895E8C009B52BC /* Vowel_Chart-iPad@2x.png */,
+				8D94490B15895E8C009B52BC /* Vowel_Chart.png */,
+				8D94490C15895E8C009B52BC /* Vowel_Chart@2x.png */,
+				8D9448ED15895E77009B52BC /* V1-01.caf */,
+				8D9448EE15895E77009B52BC /* V1-02.caf */,
+				8D9448EF15895E77009B52BC /* V1-03.caf */,
+				8D9448F015895E77009B52BC /* V1-04.caf */,
+				8D9448F115895E77009B52BC /* V1-05.caf */,
+				8D9448F215895E77009B52BC /* V1-06.caf */,
+				8D9448F315895E77009B52BC /* V1-07.caf */,
+				8D9448F415895E77009B52BC /* V1-08.caf */,
+				8D9448F515895E77009B52BC /* V1-09.caf */,
+				8D9448F615895E77009B52BC /* V1-10.caf */,
+				8D9448F715895E77009B52BC /* V1-11.caf */,
+				8D9448F815895E77009B52BC /* V1-12.caf */,
+				8D9448F915895E77009B52BC /* V1-13.caf */,
+				8D9448FA15895E77009B52BC /* V1-14.caf */,
+				8D9448FB15895E77009B52BC /* V1-15.caf */,
+				8D9448FC15895E77009B52BC /* V1-16.caf */,
+				8D9448FD15895E77009B52BC /* V1-17.caf */,
+				8D9448FE15895E77009B52BC /* V1-18.caf */,
+				8D9448FF15895E77009B52BC /* V1-19.caf */,
+				8D94490015895E77009B52BC /* V1-20.caf */,
+				8D94490115895E77009B52BC /* V1-21.caf */,
+				8D94490215895E77009B52BC /* V1-22.caf */,
+				8D94490315895E77009B52BC /* V1-23.caf */,
+				8D94490415895E77009B52BC /* V1-24.caf */,
+				8D94490515895E77009B52BC /* V1-25.caf */,
+				8D94490615895E77009B52BC /* V1-26.caf */,
+				8D94490715895E77009B52BC /* V1-27.caf */,
+				8D94490815895E77009B52BC /* V1-28.caf */,
+				8D9448C915895DD6009B52BC /* IPAVowels-Info.plist */,
+				8D9448CA15895DD6009B52BC /* InfoPlist.strings */,
+				8D9448CD15895DD6009B52BC /* main.m */,
+				8D9448CF15895DD6009B52BC /* IPAVowels-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -217,132 +188,105 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D0A9D951588066D00812F7A /* IPAVowels */ = {
+		8D9448BC15895DD6009B52BC /* IPAVowels */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D0A9DB71588066D00812F7A /* Build configuration list for PBXNativeTarget "IPAVowels" */;
+			buildConfigurationList = 8D9448DE15895DD6009B52BC /* Build configuration list for PBXNativeTarget "IPAVowels" */;
 			buildPhases = (
-				8D0A9D921588066D00812F7A /* Sources */,
-				8D0A9D931588066D00812F7A /* Frameworks */,
-				8D0A9D941588066D00812F7A /* Resources */,
+				8D9448B915895DD6009B52BC /* Sources */,
+				8D9448BA15895DD6009B52BC /* Frameworks */,
+				8D9448BB15895DD6009B52BC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = IPAVowels;
-			productName = IPAVowelChart;
-			productReference = 8D0A9D961588066D00812F7A /* IPAVowels.app */;
+			productName = IPAVowels;
+			productReference = 8D9448BD15895DD6009B52BC /* IPAVowels.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8D0A9D8D1588066B00812F7A /* Project object */ = {
+		8D9448B415895DD5009B52BC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BV;
 				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Blue Vire";
 			};
-			buildConfigurationList = 8D0A9D901588066B00812F7A /* Build configuration list for PBXProject "IPAVowels" */;
+			buildConfigurationList = 8D9448B715895DD5009B52BC /* Build configuration list for PBXProject "IPAVowels" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 8D0A9D8B1588066B00812F7A;
-			productRefGroup = 8D0A9D971588066D00812F7A /* Products */;
+			mainGroup = 8D9448B215895DD5009B52BC;
+			productRefGroup = 8D9448BE15895DD6009B52BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D0A9D951588066D00812F7A /* IPAVowels */,
+				8D9448BC15895DD6009B52BC /* IPAVowels */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8D0A9D941588066D00812F7A /* Resources */ = {
+		8D9448BB15895DD6009B52BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D0A9DA51588066D00812F7A /* InfoPlist.strings in Resources */,
-				8D0A9DB11588066D00812F7A /* BVViewController_iPhone.xib in Resources */,
-				8D0A9DB41588066D00812F7A /* BVViewController_iPad.xib in Resources */,
-				8D0A9DBD15880C7300812F7A /* icon-57.png in Resources */,
-				8D0A9DCA15880DEF00812F7A /* Vowel_Chart-iPad.png in Resources */,
-				8D0A9DCB15880DEF00812F7A /* Vowel_Chart-iPad@2x.png in Resources */,
-				8D0A9DCC15880DEF00812F7A /* Vowel_Chart.png in Resources */,
-				8D0A9DCD15880DEF00812F7A /* Vowel_Chart@2x.png in Resources */,
-				8D0A9E091588245300812F7A /* icon-114.png in Resources */,
-				8D0A9E0B1588246300812F7A /* icon-72.png in Resources */,
-				8D0A9E0D158824DF00812F7A /* icon-144.png in Resources */,
-				8D9A66701588652F005D828A /* V1-01.caf in Resources */,
-				8D9A66711588652F005D828A /* V1-02.caf in Resources */,
-				8D9A66721588652F005D828A /* V1-03.caf in Resources */,
-				8D9A66731588652F005D828A /* V1-04.caf in Resources */,
-				8D9A66741588652F005D828A /* V1-05.caf in Resources */,
-				8D9A66751588652F005D828A /* V1-06.caf in Resources */,
-				8D9A66761588652F005D828A /* V1-07.caf in Resources */,
-				8D9A66771588652F005D828A /* V1-08.caf in Resources */,
-				8D9A66781588652F005D828A /* V1-09.caf in Resources */,
-				8D9A66791588652F005D828A /* V1-10.caf in Resources */,
-				8D9A667A1588652F005D828A /* V1-11.caf in Resources */,
-				8D9A667B1588652F005D828A /* V1-12.caf in Resources */,
-				8D9A667C1588652F005D828A /* V1-13.caf in Resources */,
-				8D9A667D1588652F005D828A /* V1-14.caf in Resources */,
-				8D9A667E1588652F005D828A /* V1-15.caf in Resources */,
-				8D9A667F1588652F005D828A /* V1-16.caf in Resources */,
-				8D9A66801588652F005D828A /* V1-17.caf in Resources */,
-				8D9A66811588652F005D828A /* V1-18.caf in Resources */,
-				8D9A66821588652F005D828A /* V1-19.caf in Resources */,
-				8D9A66831588652F005D828A /* V1-20.caf in Resources */,
-				8D9A66841588652F005D828A /* V1-21.caf in Resources */,
-				8D9A66851588652F005D828A /* V1-22.caf in Resources */,
-				8D9A66861588652F005D828A /* V1-23.caf in Resources */,
-				8D9A66871588652F005D828A /* V1-24.caf in Resources */,
-				8D9A66881588652F005D828A /* V1-25.caf in Resources */,
-				8D9A66891588652F005D828A /* V1-26.caf in Resources */,
-				8D9A668A1588652F005D828A /* V1-27.caf in Resources */,
-				8D9A668B1588652F005D828A /* V1-28.caf in Resources */,
+				8D9448CC15895DD6009B52BC /* InfoPlist.strings in Resources */,
+				8D9448D815895DD6009B52BC /* BVViewController_iPhone.xib in Resources */,
+				8D9448DB15895DD6009B52BC /* BVViewController_iPad.xib in Resources */,
+				8D9448E215895DFF009B52BC /* icon-57.png in Resources */,
+				8D9448E415895E05009B52BC /* icon-114.png in Resources */,
+				8D9448E815895E3F009B52BC /* icon-72.png in Resources */,
+				8D9448EA15895E44009B52BC /* icon-144.png in Resources */,
+				8D94490D15895E8C009B52BC /* Vowel_Chart-iPad.png in Resources */,
+				8D94490E15895E8C009B52BC /* Vowel_Chart-iPad@2x.png in Resources */,
+				8D94490F15895E8C009B52BC /* Vowel_Chart.png in Resources */,
+				8D94491015895E8C009B52BC /* Vowel_Chart@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8D0A9D921588066D00812F7A /* Sources */ = {
+		8D9448B915895DD6009B52BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D0A9DA71588066D00812F7A /* main.m in Sources */,
-				8D0A9DAB1588066D00812F7A /* BVAppDelegate.m in Sources */,
-				8D0A9DAE1588066D00812F7A /* BVViewController.m in Sources */,
+				8D9448CE15895DD6009B52BC /* main.m in Sources */,
+				8D9448D215895DD6009B52BC /* BVAppDelegate.m in Sources */,
+				8D9448D515895DD6009B52BC /* BVViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8D0A9DA31588066D00812F7A /* InfoPlist.strings */ = {
+		8D9448CA15895DD6009B52BC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8D0A9DA41588066D00812F7A /* en */,
+				8D9448CB15895DD6009B52BC /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		8D0A9DAF1588066D00812F7A /* BVViewController_iPhone.xib */ = {
+		8D9448D615895DD6009B52BC /* BVViewController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8D0A9DB01588066D00812F7A /* en */,
+				8D9448D715895DD6009B52BC /* en */,
 			);
 			name = BVViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		8D0A9DB21588066D00812F7A /* BVViewController_iPad.xib */ = {
+		8D9448D915895DD6009B52BC /* BVViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8D0A9DB31588066D00812F7A /* en */,
+				8D9448DA15895DD6009B52BC /* en */,
 			);
 			name = BVViewController_iPad.xib;
 			sourceTree = "<group>";
@@ -350,7 +294,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8D0A9DB51588066D00812F7A /* Debug */ = {
+		8D9448DC15895DD6009B52BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,13 +320,13 @@
 			};
 			name = Debug;
 		};
-		8D0A9DB61588066D00812F7A /* Release */ = {
+		8D9448DD15895DD6009B52BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -391,36 +335,33 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		8D0A9DB81588066D00812F7A /* Debug */ = {
+		8D9448DF15895DD6009B52BC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IPAVowelChart/IPAVowels-Prefix.pch";
-				INFOPLIST_FILE = "IPAVowelChart/IPAVowels-Info.plist";
+				GCC_PREFIX_HEADER = "IPAVowels/IPAVowels-Prefix.pch";
+				INFOPLIST_FILE = "IPAVowels/IPAVowels-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = IPAVowels;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		8D0A9DB91588066D00812F7A /* Release */ = {
+		8D9448E015895DD6009B52BC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "IPAVowelChart/IPAVowels-Prefix.pch";
-				INFOPLIST_FILE = "IPAVowelChart/IPAVowels-Info.plist";
+				GCC_PREFIX_HEADER = "IPAVowels/IPAVowels-Prefix.pch";
+				INFOPLIST_FILE = "IPAVowels/IPAVowels-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = IPAVowels;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
@@ -429,25 +370,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8D0A9D901588066B00812F7A /* Build configuration list for PBXProject "IPAVowels" */ = {
+		8D9448B715895DD5009B52BC /* Build configuration list for PBXProject "IPAVowels" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D0A9DB51588066D00812F7A /* Debug */,
-				8D0A9DB61588066D00812F7A /* Release */,
+				8D9448DC15895DD6009B52BC /* Debug */,
+				8D9448DD15895DD6009B52BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D0A9DB71588066D00812F7A /* Build configuration list for PBXNativeTarget "IPAVowels" */ = {
+		8D9448DE15895DD6009B52BC /* Build configuration list for PBXNativeTarget "IPAVowels" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D0A9DB81588066D00812F7A /* Debug */,
-				8D0A9DB91588066D00812F7A /* Release */,
+				8D9448DF15895DD6009B52BC /* Debug */,
+				8D9448E015895DD6009B52BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8D0A9D8D1588066B00812F7A /* Project object */;
+	rootObject = 8D9448B415895DD5009B52BC /* Project object */;
 }

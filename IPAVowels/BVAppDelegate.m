@@ -1,8 +1,8 @@
 //
 //  BVAppDelegate.m
-//  IPAVowelChart
+//  IPAVowels
 //
-//  Created by Chris Hubbard on 6/12/12.
+//  Created by Chris Hubbard on 6/13/12.
 //  Copyright (c) 2012 Blue Vire. All rights reserved.
 //
 
